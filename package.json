@@ -1,0 +1,21 @@
+{
+  "name": "egg-heartcheck",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acthtml/egg-heartcheck.git"
+  },
+  "author": "acthtml",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "heartcheck-offline": "./offline.js",
+    "heartcheck-online": "./online.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^5.0.0"
+  }
+}
